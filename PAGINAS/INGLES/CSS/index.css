@@ -1,0 +1,202 @@
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.pagina {
+  width: 100%;
+  background: url(../IMG/FONDO-OFICIAL.jpg) no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.contenedor {
+  margin: 0px auto;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+@media screen and (max-width: 720px) {
+  .pagina {
+    height: auto;
+  }
+}
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid 3px rgba(255, 255, 255, 0.5);
+  padding: 0px 20px;
+}
+header .mini-titulo p {
+  font-size: 12px;
+  font-weight: lighter;
+  padding-top: 10px;
+  margin-bottom: -10px;
+  margin-left: 3px;
+}
+header .mini-titulo h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+header .redes-sociales {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .redes-sociales a {
+  color: #fff;
+  font-size: 28px;
+}
+header .redes-sociales a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px 20px;
+}
+main .titulo-principal {
+  width: 74%;
+}
+main .titulo-principal p {
+  padding-top: 70px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+main .titulo-principal h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+  main .titulo-principal {
+    width: 100%;
+  }
+  main .titulo-principal p {
+    font-size: 20px;
+  }
+  main .titulo-principal h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 720px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 20px;
+  }
+  main .titulo-principal {
+    text-align: center;
+    width: 100%;
+  }
+  main .titulo-principal p {
+    padding-top: 70px;
+    font-size: 20px;
+  }
+  main .titulo-principal h1 {
+    font-size: 45px;
+    padding-bottom: 20px;
+  }
+}
+main .buscador {
+  padding-top: 30px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+main .buscador .contenedor-buscador .contenedor-oficial {
+  margin-top: 20px;
+  width: 94%;
+  height: 225px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 5px;
+  padding: 20px 20px;
+  overflow: hidden;
+  position: relative;
+}
+main .buscador .contenedor-buscador .contenedor-oficial h2 {
+  padding-top: 15px;
+  font-size: 28px;
+  font-weight: 500;
+}
+main .buscador .contenedor-buscador .contenedor-oficial a {
+  bottom: -20px;
+  position: absolute;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+main .buscador .contenedor-buscador .contenedor-oficial:hover {
+  height: 260px;
+  transition-duration: 1200ms;
+  background-color: rgba(180, 148, 118, 0.9);
+}
+main .buscador .contenedor-buscador .contenedor-oficial:hover a {
+  bottom: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  main .buscador {
+    padding-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  main .buscador .contenedor-buscador .contenedor-oficial {
+    margin-top: 20px;
+    width: 94%;
+    height: 225px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 5px;
+    padding: 20px 20px;
+    overflow: hidden;
+    position: relative;
+  }
+  main .buscador .contenedor-buscador .contenedor-oficial h2 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 720px) {
+  main .buscador {
+    padding-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main .buscador .contenedor-buscador .contenedor-oficial {
+    margin-top: 20px;
+    width: 94%;
+    height: 225px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 5px;
+    padding: 20px 20px;
+    overflow: hidden;
+    position: relative;
+  }
+  main .buscador .contenedor-buscador .contenedor-oficial h2 {
+    padding-top: 15px;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  main .buscador .contenedor-buscador .contenedor-oficial a {
+    bottom: -20px;
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+  }
+}/*# sourceMappingURL=index.css.map */

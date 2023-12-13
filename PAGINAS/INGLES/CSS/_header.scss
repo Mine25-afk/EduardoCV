@@ -1,0 +1,45 @@
+
+$blanco:#fff;
+$blanco-transparante:rgba(255,255,255,0.5);
+$cafe:rgba(180,148,118,0.9);
+$negro-transparente:rgba(0,0,0,0.65);
+
+
+header{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid 3px $blanco-transparante;
+    padding: 0px 20px;
+    .mini-titulo{
+        p{
+            font-size: 12px;
+            font-weight: lighter;
+            padding-top: 10px;
+            margin-bottom: -10px;
+            margin-left: 3px;
+        }
+        h2{
+            font-size: 50px;
+            font-weight: bold;
+        }
+    }
+    .redes-sociales{
+        width: 150px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        a{
+            color:$blanco;
+            font-size: 28px;
+        }
+        a:hover{
+            color:$blanco-transparante
+        }
+    }
+}
+
+
+

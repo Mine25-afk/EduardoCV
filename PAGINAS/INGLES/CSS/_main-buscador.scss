@@ -1,0 +1,123 @@
+
+$blanco:#fff;
+$blanco-transparante:rgba(255,255,255,0.5);
+$cafe:rgba(180,148,118,0.9);
+$negro-transparente:rgba(0,0,0,0.65);
+
+
+
+main{
+    .buscador{
+        padding-top: 30px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        .contenedor-buscador{
+            .contenedor-oficial{
+                margin-top: 20px;
+                width: 94%;
+                height: 225px;
+                background-color: $negro-transparente;
+                border-radius: 5px;
+                padding: 20px 20px;
+                overflow: hidden;
+                position: relative;
+                h2{
+                    padding-top: 15px;
+                    font-size: 28px;
+                    font-weight: 500;
+                }
+                a{  
+                    bottom:-20px;
+                    position: absolute;
+                    display: block; 
+                    text-decoration: none;
+                    color: $blanco;
+                    
+                }
+                
+            }
+        
+        }
+
+    }
+    .buscador{
+
+        .contenedor-buscador{
+            .contenedor-oficial:hover{
+                height: 260px;
+                transition-duration: 1200ms;
+                background-color: $cafe;
+                a{
+                    bottom:15px; 
+                }
+        }
+
+    }  
+} 
+}
+
+
+@media screen and (max-width:900px){
+    main{
+        .buscador{
+            padding-top: 30px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            .contenedor-buscador{
+                .contenedor-oficial{
+                    margin-top: 20px;
+                    width: 94%;
+                    height: 225px;
+                    background-color: $negro-transparente;
+                    border-radius: 5px;
+                    padding: 20px 20px;
+                    overflow: hidden;
+                    position: relative;
+                    h2{
+                      
+                        font-size: 25px;
+                      
+                    }
+                
+                    
+                }}}}}
+@media screen and (max-width:720px) {
+    
+main{
+    .buscador{
+        padding-top: 30px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .contenedor-buscador{
+            .contenedor-oficial{
+                margin-top: 20px;
+                width: 94%;
+                height: 225px;
+                background-color: $negro-transparente;
+                border-radius: 5px;
+                padding: 20px 20px;
+                overflow: hidden;
+                position: relative;
+                h2{
+                    padding-top: 15px;
+                    font-size: 28px;
+                    font-weight: 500;
+                }
+                a{  
+                    bottom:-20px;
+                    position: absolute;
+                    display: block; 
+                    text-decoration: none;
+                    color: $blanco;
+                    
+                }
+                
+            }
+        
+        }
+
+    }
+} }

@@ -1,0 +1,30 @@
+$blanco:#fff;
+body{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pagina{
+    width: 100%;
+    background:url(../IMG/FONDO-OFICIAL.jpg) no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.contenedor{
+    margin: 0px auto;
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    color: $blanco;
+    
+}
+
+ @media screen and (max-width:720px) {
+    .pagina{
+        height: auto;
+    }
+ }
