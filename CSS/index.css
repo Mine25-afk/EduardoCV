@@ -122,6 +122,31 @@ main .trabajos .contenedor{
     flex-direction: column;
 }
 
+main .trabajos .contenedor .contenedor-ambos{
+  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+main .trabajos .contenedor .contenedor-trabajos{
+
+    width: 50%;
+    
+
+}
+
+main .trabajos .contenedor .contenedor-textos-trabajo{
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    font-size: 20px;
+    text-align: justify;
+
+}
 main .trabajos .contenedor h3{
     color: #171657;
     font-size: 34px;
@@ -130,14 +155,7 @@ main .trabajos .contenedor h3{
 }
 
 
-main .trabajos .contenedor .contenedor-trabajos{
-    width: 100%;
 
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 330px 380px;
-    grid-gap: 0px 20px;
-}
 
 main .trabajos .contenedor .contenedor-trabajos .trabajo{
     text-align: center;
@@ -147,7 +165,7 @@ main .trabajos .contenedor .contenedor-trabajos .thumb {
 }
 
 main .trabajos .contenedor .contenedor-trabajos .thumb img{
-    
+    border-radius: 12px;
     width: 100%;
     height: 100%;
     object-fit: cover;
