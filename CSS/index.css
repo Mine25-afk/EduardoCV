@@ -143,6 +143,7 @@ main .trabajos .contenedor .contenedor-textos-trabajo{
     justify-content: center;
     align-items: center;
     padding: 0px 10px;
+    padding-bottom: 60px;
     font-size: 20px;
     text-align: justify;
 
